@@ -2,7 +2,7 @@
   hosts: localhost
   vars:
     docker_username: "priyam930"
-    docker_password: "Priy@m930"  # ⚠️ Consider using ansible-vault to encrypt this
+    docker_password: ""  # ⚠️ Consider using ansible-vault to encrypt this
     image_name: "ansible-dockerized-app"
     full_image_name: "{{ docker_username }}/{{ image_name }}:latest"
     build_path: "/tmp/webapp"
